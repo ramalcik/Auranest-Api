@@ -135,3 +135,16 @@ Daha fazla bilgi için `vite.config.ts` dosyasını inceleyebilirsiniz.
 Her iki sistem için de katkı sağlamak isterseniz, pull request ve issue açabilirsiniz.
 
 **Lisans:** MIT 
+
+
+Destek için veya yardım için
+
+https://discord.gg/auranest 
+
+https://discord.com/users/817463869487185980
+
+https://discord.com/users/1150681244510728194
+
+https://discord.com/users/758758516516585491
+
+https://discord.com/users/490096318807801876
