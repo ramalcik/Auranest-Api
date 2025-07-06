@@ -22,7 +22,7 @@ Discord Api, Discord sunucuları için kullanıcı ve sunucu aktivitelerini izle
    ```sh
    cd "Discord Api"
    ```
-3. Bağımlılıkları yükle:
+3. modules'leri  yükle:
    ```sh
    npm install
    ```
@@ -61,7 +61,7 @@ Auracord, Discord benzeri bir arayüz sunan, kullanıcı dostu ve güvenli bir w
    ```sh
    cd Auracord-main
    ```
-3. Bağımlılıkları yükle:
+3. modules'leri  yükle:
    ```sh
    npm install
    ```
@@ -88,7 +88,7 @@ Auracord, Discord benzeri bir arayüz sunan, kullanıcı dostu ve güvenli bir w
 Auracord-main, arka planda Discord Api (veya başka bir backend) ile haberleşerek veri çeker. Bu bağlantı, `src/utils/apiProxy.ts` dosyasında tanımlanır. Burada, API'ye yapılacak isteklerin adresi ve doğrulama işlemleri yönetilir.
 
 - API adresini ve bağlantı ayarlarını değiştirmek için `src/utils/apiProxy.ts` dosyasını düzenleyebilirsiniz.
-- Frontend (site) tarafında veri çekmek için genellikle bu dosyadaki fonksiyonlar kullanılır.
+- Frontend (site) tarafında veri çekmek için genellikle bu dosyadaki fonksiyonlar Kullandık.
 - Örnek kullanım:
   ```ts
   import apiProxy from '../utils/apiProxy';
@@ -101,7 +101,7 @@ Daha fazla detay ve özelleştirme için `src/utils/apiProxy.ts` dosyasını inc
 
 ### API Proxy Yönlendirmesi (Proxy Ayarı)
 
-Auracord-main projesinde, frontend (site) tarafından atılan `/api` ile başlayan tüm istekler doğrudan backend'e (ör: Discord Api) yönlendirilmez. Bunun yerine, geliştirme ortamında Vite'ın proxy özelliği kullanılır. Bu sayede, site içinden yapılan istekler backend sunucusuna otomatik olarak iletilir.
+Auracord-main projesinde, frontend (site) tarafından atılan `/api` ile başlayan tüm istekler doğrudan backend'e (ör: Discord Api) yönlendirilmez. Bunun yerine, geliştirme ortamında Vite'ın proxy özelliği Kullandık. Bu sayede, site içinden yapılan istekler backend sunucusuna otomatik olarak iletilir.
 
 #### Nasıl Çalışır?
 - `vite.config.ts` dosyasında aşağıdaki gibi bir proxy ayarı bulunur:
@@ -119,7 +119,7 @@ Auracord-main projesinde, frontend (site) tarafından atılan `/api` ile başlay
 - Yani, site içinden `/api/...` şeklinde yapılan her istek, otomatik olarak `http://localhost:3000/api/...` adresine yönlendirilir.
 - Örneğin, frontend'den `/api/user?id=123` isteği atılırsa, bu istek arka planda `http://localhost:3000/api/user?id=123` adresine gider.
 
-#### Neden Proxy Kullanılır?
+#### Neden Proxy Kullandık?
 - Geliştirme ortamında CORS (cross-origin) hatalarını önler.
 - Frontend ve backend'i ayrı çalıştırırken, sanki aynı sunucudaymış gibi kolayca veri alışverişi yapılmasını sağlar.
 
@@ -142,10 +142,12 @@ Destek için veya yardım için
 
 https://discord.gg/auranest 
 
+https://discord.com/users/490096318807801876
+
 https://discord.com/users/817463869487185980
 
 https://discord.com/users/1150681244510728194
 
 https://discord.com/users/758758516516585491
 
-https://discord.com/users/490096318807801876
+
