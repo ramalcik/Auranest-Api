@@ -1,0 +1,79 @@
+Discord Api 
+=======
+
+Amaç:
+------
+Discord Api , Discord sunucuları için kullanıcı ve sunucu aktivitelerini izleyen, güncelleyen ve çeşitli otomasyonlar sağlayan bir Node.js tabanlı API sistemidir.
+
+Özellikler:
+-----------
+- Kullanıcı güncellemeleri (kullanıcı adı, profil resmi vs.)
+- Sunucuya katılan/ayrılan üyelerin takibi
+- Sesli kanala giriş/çıkış güncellemeleri
+- Webhook ile bildirimler
+- MongoDB ile veri saklama
+
+Kurulum:
+--------
+1. Depoyu klonla veya dosyaları indir.
+2. Komut satırında Discord Api  klasörüne gir:
+   cd Discord Api 
+3. Bağımlılıkları yükle:
+   npm install
+4. Ayarları yap:
+   config.json dosyasını düzenleyerek gerekli API anahtarlarını ve bağlantı bilgilerini gir.
+5. Başlat:
+   node API.js
+
+Çalışma Şekli:
+--------------
+- Sistem başlatıldığında Discord sunucusundaki aktiviteleri otomatik olarak izler ve günceller.
+- Webhook ile belirlenen kanallara bildirim gönderir.
+
+Dosya Yapısı:
+-------------
+- API/ : Ana API dosyaları
+- Models/ : MongoDB modelleri
+- src/ : Ekstra yardımcı dosyalar ve güncellemeler
+
+
+Auracord-main
+=============
+
+Amaç:
+------
+Auracord, Discord benzeri bir arayüz sunan, kullanıcı dostu ve güvenli bir web uygulamasıdır. Modern teknolojilerle geliştirilmiştir.
+
+Özellikler:
+-----------
+- Kullanıcı profili görüntüleme
+- Captcha ile güvenlik
+- Modern ve responsive arayüz (React + TailwindCSS)
+- API proxy ile backend bağlantısı
+
+Kurulum:
+--------
+1. Depoyu klonla veya dosyaları indir.
+2. Komut satırında Auracord-main klasörüne gir:
+   cd Auracord-main
+3. Bağımlılıkları yükle:
+   npm install
+4. Geliştirme sunucusunu başlat:
+   npm run dev
+5. Tarayıcıda aç:
+   http://localhost:5173
+
+Çalışma Şekli:
+--------------
+- Kullanıcılar web arayüzü üzerinden giriş yapabilir, profillerini görüntüleyebilir.
+- Captcha ile güvenlik sağlanır.
+- API proxy ile backend sistemine istekler iletilir.
+
+Dosya Yapısı:
+-------------
+- src/components/ : React bileşenleri
+- src/pages/ : Sayfa bileşenleri
+- src/utils/ : Yardımcı fonksiyonlar
+
+
+Her iki sistem için de katkı sağlamak isterseniz, pull request ve issue açabilirsiniz. Lisans: MIT 

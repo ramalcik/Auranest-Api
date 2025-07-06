@@ -1,0 +1,9 @@
+{
+  "MONGO_URI": "mongodb://localhost:27017/bewrqcim",
+  "PORT": 3131,
+  "TOKENS": [
+ "Api bot tokeni canım yani suncuları vs çekecek hesabın Tokeni gir istersen birden fazla gir" 
+
+ 
+  ]
+}
