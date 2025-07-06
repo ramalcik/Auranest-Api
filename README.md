@@ -136,6 +136,7 @@ Her iki sistem için de katkı sağlamak isterseniz, pull request ve issue açab
 
 **Lisans:** MIT 
 
+![image](https://media.discordapp.net/attachments/1214735740269887529/1391450526498951282/Capture.PNG?ex=686bf0c9&is=686a9f49&hm=614d9c23460fd9cfb295ac0d848b5e28272d51a2795e29fb7fb49bd1cadd25b5&=&format=webp&quality=lossless&width=1038&height=509)
 
 Destek için veya yardım için
 
